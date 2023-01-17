@@ -26,3 +26,43 @@ body{
 /*--------------------------------
   Fine   Header
 ----------------------------------*/
+
+/*--------------------------------
+  Main Uno
+----------------------------------*/
+
+.contenitore{
+    background-color: white;
+    height: 900px;
+    margin: 50px 100px 10px 100px;
+    border-radius: 10px;
+}
+
+.divisore-uno{
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 70px;
+    border: 1px solid #F6F8F9;
+}
+
+.bottoni{
+    padding: 7px;
+    margin-right: 3px;
+    border-radius: 4px;
+    border: 0;
+}
+
+#blue{
+    background-color: #47ADF1;
+    color: white;
+}
+
+#bianco{
+    background-color:white;
+    color: #C8CED3;
+    border: 0.5px solid #C8CED3;
+}
+
+/*--------------------------------
+  Main Uno Fine
+----------------------------------*/
