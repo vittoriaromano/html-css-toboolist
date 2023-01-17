@@ -1,6 +1,7 @@
 body{
     background-color:#F6F8F9;
     margin: auto 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*--------------------------------
@@ -33,7 +34,6 @@ body{
 
 .contenitore{
     background-color: white;
-    height: 900px;
     margin: 50px 100px 10px 100px;
     border-radius: 10px;
 }
@@ -68,14 +68,19 @@ body{
 ----------------------------------*/
 
 /*--------------------------------
-  Main Due
+  Main Due 
+  
 ----------------------------------*/
 
 .divisore-due{
-    padding-left: 70px;
+    padding-left:30px;
+    padding-bottom: 70px;
 }
 
-/*--------------------------------
+.item{
+    list-style: none;
+    padding-left: 0;
+}
 
 .list{
     list-style: none;
@@ -86,14 +91,67 @@ body{
 
 .list::before{
     content: '\25BC';
+    
 }
 
 .list-item{
     display: inline;
+    list-style: none;
+    font-weight: normal;
+    font-size: 20px;
 }
 
 .list-item::before{
     content:'\2713' ;
+    size:5px ;
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
 }
-----------------------------------*/
+.special-item{
+    display: inline;
+    list-style: none;
+    font-weight: normal;
+    font-size: 20px;
+}
+.special-item::before{
+    content:'\2717' ;
+    size:5px ;
+    border: 1px solid red;
+    border-radius: 40px;
+    color: red;
+}
 
+.blocco{
+    background-color: #47ADF1;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+#viola{
+    background-color: #9C72E4 ;
+}
+
+#blue{
+    background-color: #65C1AA ;
+}
+
+#orange{
+    background-color:#F29E33 ;
+}
+
+#rosa{
+    background-color:#D863A1  ;
+}
+
+#verde{
+    background-color: #B0C926;
+}
+
+/*--------------------------------
+  Main Due Fine
+   
+----------------------------------*/
