@@ -66,3 +66,34 @@ body{
 /*--------------------------------
   Main Uno Fine
 ----------------------------------*/
+
+/*--------------------------------
+  Main Due
+----------------------------------*/
+
+.divisore-due{
+    padding-left: 70px;
+}
+
+/*--------------------------------
+
+.list{
+    list-style: none;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-left: 0;
+}
+
+.list::before{
+    content: '\25BC';
+}
+
+.list-item{
+    display: inline;
+}
+
+.list-item::before{
+    content:'\2713' ;
+}
+----------------------------------*/
+
