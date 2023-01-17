@@ -19,6 +19,7 @@ body{
     display: inline-block;
     vertical-align: middle;
     font-size: 2.5em;
+    font-weight: bolder;
 }
 .logo{
     vertical-align: middle;
@@ -34,21 +35,22 @@ body{
 
 .contenitore{
     background-color: white;
-    margin: 50px 100px 10px 100px;
+    margin: 50px 300px 10px 170px;
     border-radius: 10px;
+    font-size: 1.3em;
 }
 
 .divisore-uno{
     height: 40px;
     padding-top: 20px;
     padding-left: 70px;
-    border: 1px solid #F6F8F9;
+    border: 2px solid #F6F8F9;
 }
 
 .bottoni{
     padding: 7px;
     margin-right: 3px;
-    border-radius: 4px;
+    border-radius: 7px;
     border: 0;
 }
 
@@ -77,58 +79,60 @@ body{
     padding-bottom: 70px;
 }
 
-.item{
-    list-style: none;
-    padding-left: 0;
-}
-
 .list{
     list-style: none;
     font-weight: bolder;
-    font-size: 25px;
     padding-left: 0;
 }
 
 .list::before{
     content: '\25BC';
-    
 }
+
+.item{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
 
 .list-item{
     display: inline;
     list-style: none;
     font-weight: normal;
-    font-size: 20px;
+    vertical-align: middle;
+    padding: 5px 0 5px ;
 }
 
 .list-item::before{
     content:'\2713' ;
-    size:5px ;
-    border: 1px solid green;
+    border: 1px solid rgb(14, 202, 14);
     border-radius: 50%;
-    color: green;
+    color:rgb(14, 202, 14);
+    text-align: center;
 }
 .special-item{
     display: inline;
     list-style: none;
     font-weight: normal;
-    font-size: 20px;
 }
+
 .special-item::before{
     content:'\2717' ;
-    size:5px ;
     border: 1px solid red;
-    border-radius: 40px;
+    border-radius: 50%;
     color: red;
+    text-align: center;
 }
 
 .blocco{
     background-color: #47ADF1;
     color: white;
-    border-radius: 20px;
-    font-size: 12px;
-    padding: 5px 10px;
+    border-radius: 16px;
+    font-size: 13px;
+    padding: 2px 10px;
     margin-left: 10px;
+    vertical-align: middle;
 }
 
 #viola{
@@ -155,3 +159,5 @@ body{
   Main Due Fine
    
 ----------------------------------*/
+
+/**/
